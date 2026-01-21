@@ -1,45 +1,57 @@
 # Customer Behavior Analysis
 
-This project focuses on analyzing customer behavior to understand purchasing patterns, customer segmentation, and trends that help businesses make data-driven decisions. The analysis covers data cleaning, exploratory data analysis, visualization, and insight generation using Python.
+This project is a comprehensive data analytics case study focused on understanding customer purchasing behavior using real-world data. The project demonstrates an end-to-end analytics workflow, including data cleaning and exploratory data analysis in Python, SQL-based analysis using relational databases, interactive dashboard creation in Power BI, and business reporting through a structured report and presentation.
 
 ## Project Overview
 
-Customer behavior analysis helps identify how customers interact with products or services by studying their demographics, purchase frequency, spending habits, and preferences. This repository demonstrates an end-to-end data analysis workflow, starting from raw data processing to meaningful business insights.
+The objective of this project is to analyze customer shopping behavior to identify patterns, trends, and actionable insights that can help businesses improve decision-making. The project integrates multiple tools and technologies commonly used in industry-level data analytics, making it suitable for both learning and professional portfolio presentation.
 
-## Objectives
+## Tools and Technologies Used
 
-The main objectives of this project are to understand customer purchasing behavior, segment customers based on demographics and buying patterns, identify high-value customers, and generate insights that can support marketing and business strategies.
+- Python (Pandas, NumPy, Matplotlib, Seaborn) for data cleaning and exploratory data analysis  
+- SQL for querying and analyzing data using relational databases such as PostgreSQL, MySQL, and SQL Server  
+- Power BI for building interactive dashboards and visual reports  
+- Gamma for creating a professional presentation (PPT)  
+- CSV files as data sources  
 
-## Repository Structure
+## Dataset Description
 
-The repository is organized into folders for data, notebooks, and visual outputs. The data folder contains the raw dataset, the notebooks folder contains the Jupyter Notebook used for analysis, and the visuals folder stores charts and plots generated during the analysis. A requirements file is included to list all Python dependencies.
+The project uses customer shopping data containing information such as customer demographics, purchase details, product categories, and transaction values. The raw dataset is cleaned and transformed to create a structured dataset suitable for analysis, SQL querying, and dashboard development.
 
-## Dataset
+## Project Structure
 
-The dataset contains customer-related information such as customer identifiers, age, gender, purchase amount, product category, and purchase date. This data is used to analyze spending trends, customer preferences, and behavioral patterns. Dataset details can be updated once the final data source is confirmed.
-
-## Tools and Technologies
-
-The project is implemented using Python with libraries such as Pandas and NumPy for data manipulation, Matplotlib and Seaborn for data visualization, and Jupyter Notebook for interactive analysis. All required dependencies can be installed using the requirements.txt file.
+The repository includes Python notebooks for data analysis, CSV files for raw and cleaned datasets, SQL scripts for querying the data, a Power BI dashboard file for visualization, and documentation files for reporting and presentation.
 
 ## Analysis Workflow
 
-The analysis begins with data loading and cleaning, including handling missing values, correcting data types, and removing duplicates. This is followed by exploratory data analysis to study customer demographics, purchasing trends, and category-wise spending. Customer segmentation is then performed to group customers based on similar behavior. Visualizations are created to clearly present insights and trends.
+The analysis begins with data cleaning in Python, where missing values are handled, data types are corrected, and duplicates are removed. Exploratory Data Analysis is then performed to understand customer demographics, spending patterns, and product category performance.
 
-## Key Insights
+The cleaned data is imported into a relational database, where SQL queries are written to answer business questions such as customer segmentation, total and average spending, and category-wise performance.
 
-The analysis reveals patterns in customer demographics, identifies product categories that generate higher revenue, and highlights the importance of repeat customers in overall sales. These insights can help businesses optimize marketing strategies and improve customer retention.
+An interactive Power BI dashboard is built using the analyzed data to visually present key metrics and insights. Finally, the findings are summarized in a structured report and a presentation created using Gamma for clear communication to stakeholders.
+
+## Key Outcomes
+
+- Identified customer purchasing trends and spending behavior  
+- Analyzed product category performance and customer segments  
+- Built an interactive Power BI dashboard for business insights  
+- Demonstrated practical use of Python, SQL, and BI tools in a single project  
 
 ## How to Run the Project
 
-To run this project, clone the repository, navigate to the project directory, install the required Python packages using the requirements file, and open the Jupyter Notebook from the notebooks folder to execute the analysis.
+Clone the repository using the command:
 
-## Future Enhancements
+git clone https://github.com/Saipushpanjali/Customer-Behavior-Analysis
 
-Future improvements may include applying machine learning models for customer clustering or sales prediction, creating interactive dashboards using tools such as Streamlit or Power BI, and automating reports for business use.
+Open the Python notebook to view and run the data cleaning and EDA steps.  
+Use the provided SQL file to run queries in PostgreSQL, MySQL, or SQL Server.  
+Open the Power BI (.pbix) file in Power BI Desktop to explore the dashboard.
+
+## Future Improvements
+
+Future enhancements may include implementing machine learning models for customer segmentation, automating data pipelines, and deploying dashboards for real-time data updates.
 
 ## Author
 
 Saipushpanjali  
 GitHub: https://github.com/Saipushpanjali
-
